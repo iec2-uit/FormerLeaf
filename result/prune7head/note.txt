@@ -1,0 +1,1 @@
+This folder includes models after training from Train_ViT_Huggingface_prune7heads.ipynb.
