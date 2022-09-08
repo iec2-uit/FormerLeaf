@@ -1,1 +1,1 @@
-Train_ViT_Huggingface_prune1heads
+This folder includes models after training from Train_ViT_Huggingface_prune1heads.
