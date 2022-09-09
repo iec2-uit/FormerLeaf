@@ -14,3 +14,4 @@ input/cassava-leaf-disease-classification/
 ```
 
 
+[model zoo] (https://github.com/iec2-uit/FormerLeaf/releases/tag/model_zoo_release)
