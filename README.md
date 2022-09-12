@@ -24,3 +24,16 @@ We provide models trained on Cassava Leaf Disease Dataset. Models can be found [
 
 
 attention map LeIAP
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+## Training
+
+To train FormerLeaf on Cassava Leaf Disease Dataset on a single node with 1 gpu core for 165 epochs run:
+
+##Evaluation
+
+To evaluate a pretrained model FormerLeaf:
