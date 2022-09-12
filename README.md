@@ -14,7 +14,7 @@ input/cassava-leaf-disease-classification/
 ```
 
 
-We provide models trained on Cassava Leaf Disease Dataset. Models can be found [here] (https://github.com/iec2-uit/FormerLeaf/releases/tag/model_zoo_release).
+We provide models trained on Cassava Leaf Disease Dataset. Models can be found [here](https://github.com/iec2-uit/FormerLeaf/releases/tag/model_zoo_release).
 
 
 
