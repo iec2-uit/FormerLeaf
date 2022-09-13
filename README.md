@@ -38,6 +38,7 @@ attention map LeIAP
 ## Prune function
 
 From the FormerLeaf, we can create FormerLeaf -1 by using the prune function as follows:
+```
 D = {0: [4], 
          1: [5], 
          2: [10], 
@@ -51,6 +52,7 @@ D = {0: [4],
          10: [0],
          11: [10]}
 model.model.vit.prune_heads(D)
+```
 
 ## Training
 
