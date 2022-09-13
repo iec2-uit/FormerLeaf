@@ -37,6 +37,21 @@ attention map LeIAP
 
 ## Prune function
 
+From the FormerLeaf, we can create FormerLeaf -1 by using the prune function as follows:
+D = {0: [4], 
+         1: [5], 
+         2: [10], 
+         3: [5], 
+         4: [3], 
+         5: [3],
+         6: [8], 
+         7: [10],
+         8: [11], 
+         9: [8], 
+         10: [0],
+         11: [10]}
+model.model.vit.prune_heads(D)
+
 ## Training
 
 To train FormerLeaf on Cassava Leaf Disease Dataset on a single node with 1 gpu core for 165 epochs run:
