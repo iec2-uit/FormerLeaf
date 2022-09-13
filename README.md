@@ -19,13 +19,13 @@ We provide models trained on Cassava Leaf Disease Dataset. Models can be found [
 | Name  | F1 - score | #Params  | Size | URL|
 | ------------- | ------------- | ------------- | ------------- |------------- |
 | FormerLeaf | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| FormerLeaf | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| FormerLeaf | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| FormerLeaf | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| FormerLeaf | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| FormerLeaf | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| FormerLeaf | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| FormerLeaf | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| FormerLeaf - 1 | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| FormerLeaf - 3 | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| FormerLeaf - 5 | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| FormerLeaf - 7 | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| FormerLeaf - 9 | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| FormerLeaf - 11 | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| FormerLeaf + SPMM| Content Cell  | Content Cell  | Content Cell  | Content Cell  |
 
 
 attention map LeIAP
