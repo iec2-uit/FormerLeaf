@@ -35,6 +35,8 @@ attention map LeIAP
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
 
+## Prune function
+
 ## Training
 
 To train FormerLeaf on Cassava Leaf Disease Dataset on a single node with 1 gpu core for 165 epochs run:
