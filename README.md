@@ -28,12 +28,7 @@ We provide models trained on Cassava Leaf Disease Dataset. Models can be found [
 | FormerLeaf + SPMM| 95.3  | 85.5M  | 345.4  | [model](https://github.com/iec2-uit/FormerLeaf/releases/download/model_zoo_release/FormerLeaf_SPMM)  |
 
 
-attention map LeIAP
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
 
 ## Prune function
 
@@ -53,7 +48,13 @@ D = {0: [4],
      11: [10]}
 model.model.vit.prune_heads(D)
 ```
+The corresponding pruned head from each layer in D follows the Table below, created from our proposed algorithm LeIAP.
+attention map LeIAP
 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 ## Training
 
 To train FormerLeaf on Cassava Leaf Disease Dataset on a single node with 1 gpu core for 165 epochs run:
