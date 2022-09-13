@@ -19,13 +19,13 @@ We provide models trained on Cassava Leaf Disease Dataset. Models can be found [
 | Name  | F1 - score | #Params  | Size | URL|
 | ------------- | ------------- | ------------- | ------------- |------------- |
 | FormerLeaf | 96.82  | 85.8M  | 345.4  | [model](https://github.com/iec2-uit/FormerLeaf/releases/download/model_zoo_release/FormerLeaf) |
-| FormerLeaf - 1 | 96.63  | 83.4M  | 336.4  | Content Cell  |
-| FormerLeaf - 3 | 98.5  | 78.7M  | 318.4  | Content Cell  |
-| FormerLeaf - 5 | 96.42  | 74M  | 300.4  | Content Cell  |
-| FormerLeaf - 7 | 96.07  | 69.2M  | 282.4  | Content Cell  |
-| FormerLeaf - 9 | 97.3  | 64.5M  | 264.4  | Content Cell  |
-| FormerLeaf - 11 | 91.8  | 59.8M  | 246.4  | Content Cell  |
-| FormerLeaf + SPMM| 95.3  | 85.5M  | 345.4  | Content Cell  |
+| FormerLeaf - 1 | 96.63  | 83.4M  | 336.4  | [model](https://github.com/iec2-uit/FormerLeaf/releases/download/model_zoo_release/FormerLeaf-1)  |
+| FormerLeaf - 3 | 98.5  | 78.7M  | 318.4  | [model](https://github.com/iec2-uit/FormerLeaf/releases/download/model_zoo_release/FormerLeaf-3)  |
+| FormerLeaf - 5 | 96.42  | 74M  | 300.4  | [model](https://github.com/iec2-uit/FormerLeaf/releases/download/model_zoo_release/FormerLeaf-5)  |
+| FormerLeaf - 7 | 96.07  | 69.2M  | 282.4  | [model](https://github.com/iec2-uit/FormerLeaf/releases/download/model_zoo_release/FormerLeaf-7)  |
+| FormerLeaf - 9 | 97.3  | 64.5M  | 264.4  | [model](https://github.com/iec2-uit/FormerLeaf/releases/download/model_zoo_release/FormerLeaf-9)  |
+| FormerLeaf - 11 | 91.8  | 59.8M  | 246.4  | [model](https://github.com/iec2-uit/FormerLeaf/releases/download/model_zoo_release/FormerLeaf-11)  |
+| FormerLeaf + SPMM| 95.3  | 85.5M  | 345.4  | [model](https://github.com/iec2-uit/FormerLeaf/releases/download/model_zoo_release/FormerLeaf_SPMM)  |
 
 
 attention map LeIAP
