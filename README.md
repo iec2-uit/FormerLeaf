@@ -49,7 +49,6 @@ D = {0: [4],
 model.model.vit.prune_heads(D)
 ```
 The corresponding pruned head from each layer in D follows the Table below, created from our proposed algorithm LeIAP.
-attention map LeIAP
 
 | First Header  | Second Header |
 | ------------- | ------------- |
