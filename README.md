@@ -70,7 +70,9 @@ model.model.vit.prune_heads(D)
     <td  colspan="2">Two</td>
   </tr>
   <tr>
-    <td colspan="2">Three</td>
+   <td>One</td>
+    <td>One</td>
+    <td>One</td>
   </tr>
 </table>
 
