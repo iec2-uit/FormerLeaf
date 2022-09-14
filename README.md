@@ -64,6 +64,15 @@ D = {0: [4],
      11: [10]}
 model.model.vit.prune_heads(D)
 ```
+<table>
+  <tr>
+    <td>One</td>
+    <td>Two</td>
+  </tr>
+  <tr>
+    <td colspan="2">Three</td>
+  </tr>
+</table>
 
 ## Training
 
