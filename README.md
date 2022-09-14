@@ -52,7 +52,7 @@ From the FormerLeaf, we can create the different pruned models from FormerLeaf -
 <table>
   <tr>
     <td>Layer</td>
-    <td  colspan=112">Head - sort by important values</td>
+    <td  colspan="12">Head - sort by important values</td>
   </tr>
   <tr>
     <td>0</td>
@@ -67,7 +67,7 @@ From the FormerLeaf, we can create the different pruned models from FormerLeaf -
     <td>2</td>
     <td>10</td>
     <td>11</td>
-    <td11</td>
+    <td>1</td>
   </tr>
 </table>
 
