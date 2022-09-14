@@ -33,22 +33,6 @@ We provide models trained on Cassava Leaf Disease Dataset. Models can be found [
 ## Prune function
 From the FormerLeaf, we can create the different pruned models from FormerLeaf - 1 to FormerLeaf - 11 by pruning the corresponding head from each layer, according to the table below. This table is created from our proposed algorithm LeIAP.
 
-| Layer  | Head - sort by important values | | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| 0 | 4  |7  | 3  |8  |6  |5  |0  |9  |2  |10  | 11 |1  |
-| 1 |  5 |4  | 1  |3  |2  |8  |9  |7 |0   |11  | 6  |10 |
-| 2 |  10 |1  | 7  |9  |5  |3  |2  |8 |11   |0  | 4  |6 |
-| 3 |  5 |1  | 2  |0  |11  |6  |3  |7 |10   |8  | 4  |9 |
-| 4 |  3 |11  | 7  |9  |6  |4  |10  |5 |0   |1  | 2  |8 |
-| 5 |  3 |9  | 2  |11  |1  |0  |6  |5 |7   |8  | 10  |4 |
-| 6 |  8 |4  | 11  |10  |1  |9  |6  |5 |7   |10  |2  |3 |
-| 7 |  10 |3  | 9  |4  |2  |0  |7  |1 |6   |11  | 8  |5 |
-| 8 |  11 |0  | 6  |9  |7  |2  |10  |8 |1   |5  | 3  |4 |
-| 9 |  8 |6  | 2  |10  |9  |3  |4  |0 |7   |11  | 5  |1 |
-| 10 |  0 |4  | 5  |10  |1  |6  |7  |3 |8   |11  | 9 |2 |
-| 11 |  10 |2  |7  |9  |3  |5  |6  |8 |11   |0  | 1  |4 |
-
-
 <table>
   <tr>
     <td>Layer</td>
