@@ -48,6 +48,29 @@ From the FormerLeaf, we can create the different pruned models from FormerLeaf -
 | 10 |  0 |4  | 5  |10  |1  |6  |7  |3 |8   |11  | 9 |2 |
 | 11 |  10 |2  |7  |9  |3  |5  |6  |8 |11   |0  | 1  |4 |
 
+
+<table>
+  <tr>
+    <td>Layer</td>
+    <td  colspan="2">Head - sort by important values</td>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>4</td>
+    <td>7</td>
+    <td>3</td>
+    <td>8</td>
+    <td>6</td>
+    <td>5</td>
+    <td>0</td>
+    <td>9</td>
+    <td>2</td>
+    <td>10</td>
+    <td>11</td>
+    <td11</td>
+  </tr>
+</table>
+
 The following source code is used to create FormerLeaf - 1 by pruning one head in each Transformer encoder layer.
 ```
 D = {0: [4], 
@@ -64,17 +87,7 @@ D = {0: [4],
      11: [10]}
 model.model.vit.prune_heads(D)
 ```
-<table>
-  <tr>
-    <td>One</td>
-    <td  colspan="2">Two</td>
-  </tr>
-  <tr>
-   <td>One</td>
-    <td>One</td>
-    <td>One</td>
-  </tr>
-</table>
+
 
 ## Training
 
