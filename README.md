@@ -183,7 +183,7 @@ From the FormerLeaf, we can create the different pruned models from FormerLeaf -
     <td>3</td>
     <td>4</td>
     <td>0</td>
-    <td>27</td>
+    <td>7</td>
     <td>11</td>
     <td>5</td>
     <td>1</td>
