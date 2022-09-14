@@ -35,8 +35,18 @@ From the FormerLeaf, we can create the different pruned models from FormerLeaf -
 
 | Layer  | Head - sort by important values |------------- | ------------- | ------------- |------------- | ------------- | ------------- |------------- | ------------- | ------------- |------------- | ------------- | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| 0 | Content Cell  |Content Cell  | Content Cell  |Content Cell  |Content Cell  |Content Cell  | Content Cell  |Content Cell  |Content Cell  |Content Cell  | Content Cell  |Content Cell  |
-| 1  | Content Cell  |Content Cell  | Content Cell  |Content Cell  |Content Cell  |Content Cell  | Content Cell  |Content Cell  |Content Cell  |Content Cell  | Content Cell  |Content Cell  |
+| 0 | 4  |7  | 3  |8  |6  |5  |0  |9  |2  |10  | 11 |1  |
+| 1 |  5 |4  | 1  |3  |2  |8  |9  |7 |0   |11  | 6  |10 |
+| 2 |  10 |1  | 7  |9  |5  |3  |2  |8 |11   |0  | 4  |6 |
+| 3 |  5 |1  | 2  |0  |11  |6  |3  |7 |10   |8  | 4  |9 |
+| 4 |  3 |11  | 7  |9  |6  |4  |10  |5 |0   |1  | 2  |8 |
+| 5 |  3 |9  | 2  |11  |1  |0  |6  |5 |7   |8  | 10  |4 |
+| 6 |  8 |4  | 11  |10  |1  |9  |6  |5 |7   |10  |2  |3 |
+| 7 |  10 |3  | 9  |4  |2  |0  |7  |1 |6   |11  | 8  |5 |
+| 8 |  11 |0  | 6  |9  |7  |2  |10  |8 |1   |5  | 3  |4 |
+| 9 |  8 |6  | 2  |10  |9  |3  |4  |0 |7   |11  | 5  |1 |
+| 10 |  0 |4  | 5  |10  |1  |6  |7  |3 |8   |11  | 9 |2 |
+| 11 |  10 |2  |7  |9  |3  |5  |6  |8 |11   |0  | 1  |4 |
 
 The following source code is used to create FormerLeaf - 1 by pruning one head in each Transformer encoder layer.
 ```
