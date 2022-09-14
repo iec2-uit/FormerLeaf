@@ -256,6 +256,8 @@ notebooks/
 ## Evaluation
 
 To evaluate a pretrained model run:
+
+```
 notebooks/
   Evaluation.ipynb
 ```
