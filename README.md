@@ -16,9 +16,9 @@ input/cassava-leaf-disease-classification/
 
 We provide models trained on Cassava Leaf Disease Dataset. Models can be found [here](https://github.com/iec2-uit/FormerLeaf/releases/tag/model_zoo_release).
 
-| Name  | F1 - score | #Params  | Size | URL|
-| ------------- | ------------- | ------------- | ------------- |------------- |
-| FormerLeaf | 96.82  | 85.8M  | 345.4  | [model](https://github.com/iec2-uit/FormerLeaf/releases/download/model_zoo_release/FormerLeaf) |
+| Name  | F1 - score | #Params  | Size | Model Complexity | URL|
+| ------------- | ------------- | ------------- | ------------- |------------- |------------- |
+| FormerLeaf | 96.82  | 85.8M  | 345.4 |O^(n^2) | [model](https://github.com/iec2-uit/FormerLeaf/releases/download/model_zoo_release/FormerLeaf) |
 | FormerLeaf - 1 | 96.63  | 83.4M  | 336.4  | [model](https://github.com/iec2-uit/FormerLeaf/releases/download/model_zoo_release/FormerLeaf-1)  |
 | FormerLeaf - 3 | 98.5  | 78.7M  | 318.4  | [model](https://github.com/iec2-uit/FormerLeaf/releases/download/model_zoo_release/FormerLeaf-3)  |
 | FormerLeaf - 5 | 96.42  | 74M  | 300.4  | [model](https://github.com/iec2-uit/FormerLeaf/releases/download/model_zoo_release/FormerLeaf-5)  |
