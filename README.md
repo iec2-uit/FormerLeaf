@@ -240,7 +240,7 @@ model.model.vit.prune_heads(D)
 
 ## Training
 
-To train FormerLeaf and its variants on Cassava Leaf Disease Dataset on a single node with 1 gpu core for 165 epochs run:
+To train FormerLeaf and its variants on Cassava Leaf Disease Dataset on Google Colab with 1 gpu core for 165 epochs run:
 ```
 notebooks/
   Train_FormerLeaf_Huggingface_Origin_5fold_33epochs.ipynb //FormerLeaf
