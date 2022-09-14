@@ -31,8 +31,14 @@ We provide models trained on Cassava Leaf Disease Dataset. Models can be found [
 
 
 ## Prune function
+From the FormerLeaf, we can create the different pruned models from FormerLeaf - 1 to FormerLeaf - 11 by pruning the corresponding head from each layer, according to the table below. This table is created from our proposed algorithm LeIAP.
 
-From the FormerLeaf, we can create FormerLeaf -1 by using the prune function as follows:
+| Layer  | Head - sort by important values |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| 0 | Content Cell  |Content Cell  | Content Cell  |Content Cell  |Content Cell  |Content Cell  | Content Cell  |Content Cell  |Content Cell  |Content Cell  | Content Cell  |Content Cell  |
+| 1  | Content Cell  |Content Cell  | Content Cell  |Content Cell  |Content Cell  |Content Cell  | Content Cell  |Content Cell  |Content Cell  |Content Cell  | Content Cell  |Content Cell  |
+
+The following source code is used to create FormerLeaf - 1 by pruning one head in each Transformer encoder layer.
 ```
 D = {0: [4], 
      1: [5], 
@@ -48,12 +54,7 @@ D = {0: [4],
      11: [10]}
 model.model.vit.prune_heads(D)
 ```
-The corresponding pruned head from each layer in D follows the Table below, created from our proposed algorithm LeIAP.
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
 ## Training
 
 To train FormerLeaf on Cassava Leaf Disease Dataset on a single node with 1 gpu core for 165 epochs run:
