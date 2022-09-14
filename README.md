@@ -255,7 +255,7 @@ notebooks/
 
 ## Evaluation
 
-To evaluate a pretrained model run:
+To evaluate a pretrained model on Cassava Leaf Disease Dataset on Google Colab with 1 gpu core run:
 
 ```
 notebooks/
