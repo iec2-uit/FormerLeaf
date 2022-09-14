@@ -220,7 +220,7 @@ From the FormerLeaf, we can create the different pruned models from FormerLeaf -
   </tr>
 </table>
 
-The following source code is used to create FormerLeaf - 1 by pruning one head in each Transformer encoder layer.
+For example, the following source code is used to create FormerLeaf - 1 by pruning one head in each Transformer encoder layer.
 ```
 D = {0: [4], 
      1: [5], 
