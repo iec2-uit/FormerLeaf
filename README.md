@@ -243,7 +243,14 @@ model.model.vit.prune_heads(D)
 To train FormerLeaf and its variants on Cassava Leaf Disease Dataset on a single node with 1 gpu core for 165 epochs run:
 ```
 notebooks/
-  Train_ViT_Huggingface_Origin_5fold_33epochs.ipynb //FormerLeaf
+  Train_FormerLeaf_Huggingface_Origin_5fold_33epochs.ipynb //FormerLeaf
+  Train_FormerLeaf_1_Huggingface_Origin_5fold_33epochs.ipynb //FormerLeaf-1
+  Train_FormerLeaf_3_Huggingface_Origin_5fold_33epochs.ipynb //FormerLeaf-3
+  Train_FormerLeaf_5_Huggingface_Origin_5fold_33epochs.ipynb //FormerLeaf-5
+  Train_FormerLeaf_7_Huggingface_Origin_5fold_33epochs.ipynb //FormerLeaf-7
+  Train_FormerLeaf_9_Huggingface_Origin_5fold_33epochs.ipynb //FormerLeaf-9
+  Train_FormerLeaf_11_Huggingface_Origin_5fold_33epochs.ipynb //FormerLeaf-11
+  Train_FormerLeaf_Huggingface_sparse_Transformer.ipynb //FormerLeaf + SPMM
 ```
 
 ## Evaluation
